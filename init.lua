@@ -813,7 +813,7 @@ require('lazy').setup({
     config = function()
       -- Load the colorscheme here.
       vim.cmd.colorscheme 'vscode'
-      -- Change to 'dark' for dark theme
+      -- Change to 'dark'(|| 'light') for dark theme
       vim.o.background = 'light'
     end,
   },
